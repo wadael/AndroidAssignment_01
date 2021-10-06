@@ -9,15 +9,18 @@
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="Hello World!"
-     />
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/et"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="3"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
@@ -26,8 +29,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.25"
         android:onClick="buttonIsClicked"
         android:text="Button"
         tools:layout_editor_absoluteX="159dp"
